@@ -1,0 +1,12 @@
+.AppBar {
+	width: 100vw;
+	height: 70px;
+	background-color: #E6E6E6;
+}
+
+.AppTitle {
+	color: #1A1A1A;
+	font-size: 3em;
+	font-weight: 600;
+	margin-left: 4vw;
+}
