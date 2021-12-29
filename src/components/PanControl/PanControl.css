@@ -1,0 +1,122 @@
+.PanControl {
+	width: max-content;
+}
+
+.ArrowButton {
+	background: #006E99;
+	border-radius: 2px;
+	width: fit-content;
+	display: inline-block;
+	margin: 5px;
+	padding: 10px;
+}
+
+.ControlPadContainer {
+	width: max-content;
+}
+
+.PadDivider {
+	width: 190px;
+	display: inline-block;
+}
+
+.ArrowButton:hover {
+	background: #005E89;
+}
+
+.ArrowButton img {
+	width: 80px;
+}
+
+.Up {
+	transform: rotate(270deg);
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.UpLeft {
+	transform: rotate(225deg);
+	margin-left: -10px;
+	padding-left: 10px;
+}
+
+.UpRight {
+	transform: rotate(315deg);
+	margin-top: -10px;
+	padding-top: 10px;
+}
+
+.Down {
+	transform: rotate(90deg);
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.DownLeft {
+	transform: rotate(135deg);
+	margin-left: -10px;
+	padding-left: 10px;
+}
+
+.DownRight {
+	transform: rotate(45deg);
+	margin-bottom: -10px;
+	padding-bottom: 10px;
+}
+
+.Left {
+	transform: rotate(180deg);
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.Right {
+	transform: rotate(0deg);
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.SpeedSlider {
+	width: 100%;
+}
+
+.SpeedSlider h3 {
+	font-size: 2em;
+	font-weight: 700;
+	color: #1A1A1A;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.slider {
+  -webkit-appearance: none;
+	width: 100%;
+  height: 15px;
+	border-radius: 7.5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #006E99;
+  cursor: pointer;
+	border-radius: 12.5px;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #006E99;
+  cursor: pointer;
+}

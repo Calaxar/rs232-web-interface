@@ -14,6 +14,17 @@
   right:0px;
   bottom:0px;
   left:0px;
-	margin-left: 3vw;
-	margin-right: 3vw;
+	margin-left: 4vw;
+	margin-right: 4vw;
+	padding-left: 4vw;
+	padding-right: 4vw;
+	padding-top: 30px;
+}
+
+h2 {
+	font-size: 4em;
+	color: #1A1A1A;
+	font-weight: 600;
+	margin-top: 0px;
+	margin-bottom: 10px;
 }
